@@ -14,9 +14,7 @@ public class Aplicacion {
 		Mago m=new Mago("Merlín");
 		Arquero a=new Arquero("Legolast");
 		a.atacar(m, 10);
-		m.atacar(a, 5);
-		
-		
+		m.atacar(a, 5);		
 	}
 
 }
